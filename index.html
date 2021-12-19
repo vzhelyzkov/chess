@@ -5,10 +5,363 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    
+
 </head>
 <body>
-    <h1>
-      Hello  
-    </h1>
-</body>
-</html>
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       
+   <style>
+.container  {
+
+background-color: black;
+font-size:0;
+
+}
+
+.container div {
+
+   display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    font-size:1rem;
+
+}
+
+div {
+    display: block;
+    position: relative;
+    
+}
+
+span {
+   position: absolute;
+}
+
+.centered {
+   
+  position: fixed;
+ left: 31%;
+
+}
+
+h1 { 
+   text-align: center;
+}
+
+div .left :nth-child(2n-1) {
+   right: 80px;
+   top: 20px;
+}
+
+div .right :nth-child(2n-1) {
+   left: 75px;
+   top: 20px;
+}
+
+div .top :nth-child(n) {
+
+   
+   bottom: 72px;
+   left: 30px;
+}
+
+
+div .bottom :nth-child(2n-1) {
+
+   
+top: 72px;
+left: 30px;
+}
+
+.h:hover {
+   background-color: red;
+}
+
+div :nth-child(2n-1) {
+   background-color: white;
+}
+
+.special1 {
+   bottom: 72px;
+   left: 30px;
+}
+
+#spec2 {
+   bottom: 150px;
+   left: 75px;
+}
+
+.special3 {
+   bottom: 30px;
+   right: 80px;
+}
+
+.special4 {
+   top: 25px;
+   left: 75px;
+}
+
+   </style>
+   </head>
+   <body>
+      
+      <h1>Chess Board</h1>
+
+
+       <div class="container centered">
+
+         
+   
+    <div class=" h v1 left">
+       <span>1</span>
+       <span class="top special1">A</span>
+    </div>
+    <div class="h v2 top">
+       <span class="top">B</span>
+    </div>
+    <div class="h v2 top">
+
+       <span class="h top">C</span>
+    </div>
+    <div class="h v2 top">
+       <span class="top">D</span>
+    </div>
+    <div class="h v2 top">
+       <span class="h top">E</span>
+    </div>
+    <div class="h v2 top">
+       <span class="top">F</span>
+
+    </div>
+    <div class="h v2 top">
+       <span class="top">G</span>
+  
+    </div>
+    <div class="h v3 right top">
+       <span id="spec2">1</span>
+       <span class="top">H</span>
+    </div>
+<br>
+
+<div class="h v4 left">
+   <span>2</span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h v5 right">
+  
+   <span>2</span>
+</div>
+
+<br>
+<div class="h v6 left">
+   <span>3</span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h v7 right">
+  
+   <span>3</span>
+</div>
+
+<br>
+<div class="h v8 left">
+   <span>4</span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h v9 right">
+  
+   <span>4</span>
+</div>
+<br>
+<div class="h v10 left">
+   <span>5</span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+
+   <span></span>
+</div>
+<div class="h ">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h v11 right">
+  
+   <span>5</span>
+</div>
+<br>
+<div class="h v12 left">
+   <span>6</span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h v13 right">
+  
+   <span>6</span>
+</div>
+
+<br>
+<div class="h v14 left">
+   <span>7</span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h">
+   <span></span>
+
+</div>
+<div class="h v15 right">
+  
+   <span>7</span>
+</div>
+
+<br>
+<div class="h v16 left bottom">
+   <span>A</span>
+   <span class="special3">8</span>
+</div>
+<div class="h v17 bottom">
+   <span>B</span>
+</div>
+<div class="h v17 bottom">
+
+   <span>C</span>
+</div>
+<div class="h v17 bottom">
+   <span>D</span>
+</div>
+<div class="h v17 bottom">
+   <span>E</span>
+</div>
+<div class="h v17 bottom">
+   <span>F</span>
+
+</div>
+<div class="h v17 bottom">
+   <span>G</span>
+
+</div>
+<div class="h v18 right bottom">
+   <span>H</span>
+   <span class="special4">8</span>
+</div>
+
+</div>
+   
+   </body>
+   </html>
